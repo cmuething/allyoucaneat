@@ -27,7 +27,7 @@ a {
 	font-style: normal;
 }
 
-#letter1 a:click {
+#letter1 a:hover {
 	color: red;
 	cursor: hand;
 }
