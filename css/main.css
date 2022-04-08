@@ -24,14 +24,35 @@ a {
 #letter1 {
 	text-decoration: none;
 	font-style: normal;
+	color: #E74A28;
+}
+
+#letter2 {
+	color: #F4C548;
+}
+
+#letter3 {
+	color: #797D2A;
+}
+
+#letter4 {
+	color: #4794F6;
+}
+
+#letter5 {
+	color: #80C33E;
+}
+
+#letter6 {
+	color: #8A8686;
 }
 
 #letter1 a:hover {
-	color: red;
-	cursor: hand;
+/*	color: red;
+*/	cursor: hand;
 }
 
 #letter2 a:hover {
-	color: green;
-	cursor: hand;
+/*	color: green;
+*/	cursor: hand;
 }
