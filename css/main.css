@@ -9,7 +9,7 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: #E74A28;
+	color: #FF3000;
 }
 
 .letters {
@@ -24,27 +24,27 @@ a {
 #letter1 {
 	text-decoration: none;
 	font-style: normal;
-	color: #E74A28;
+	color: #FF3000;
 }
 
 #letter2 {
-	color: #F4C548;
+	color: #FFC612;
 }
 
 #letter3 {
-	color: #797D2A;
+	color: #0098FF;
 }
 
 #letter4 {
-	color: #4794F6;
+	color: #67C900;
 }
 
 #letter5 {
-	color: #87D700;
+	color: #797F00;
 }
 
 #letter6 {
-	color: #8A8686;
+	color: #8E8888;
 }
 
 #letter1 a:hover {
