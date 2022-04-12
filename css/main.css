@@ -1,7 +1,8 @@
-/*@font-face {
+@font-face {
   font-family: "Arial Black";
   src: url("/fonts/@font-face/8984ea7fcbebdcfe77fbbc1b86e7cfe6.woff") format("woff");
-}*/
+  src: url("/fonts/@font-face/8984ea7fcbebdcfe77fbbc1b86e7cfe6.woff2") format("woff");
+}
 
 body {
 	overflow-x: hidden;
