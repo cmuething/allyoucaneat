@@ -3,6 +3,12 @@
   src: url("/fonts/@font-face/8984ea7fcbebdcfe77fbbc1b86e7cfe6.woff") format("woff");
 }*/
 
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: auto;
+}
+
 h1 {
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 /*	font-weight: 700;
@@ -15,11 +21,12 @@ h1 {
 a {
 /*	text-decoration: none;
 	color: inherit;*/
-	color: yellow;
+	color: black;
 }
 
 .letters {
 	text-align: center;
+	z-index: 10;
 }
 
 .letter {
@@ -57,26 +64,184 @@ a:hover {
 	cursor: hand;
 }
 
-.rect {
-  animation: xAxis 2.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+.rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8, .rect9, .rect10, .rect11, .rect12 {
+	pointer-events: none;
+	position: fixed;
 }
 
-.rect::after {
-  display: block;
-  width: 100px;
-  height: 50px;
-  background-color: #FF3000;
-  animation: yAxis 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+.rect1 {
+  animation: xAxisA 5.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: -10;
+  	left: 50%;
 }
 
-@keyframes yAxis {
+.rect1::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #FF3000;
+  	animation: yAxisA 5.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisA {
   50% {
     animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
-    transform: translateY(-100px);
+    transform: translateY(1000px);
   }
 }
 
-@keyframes xAxis {
+@keyframes xAxisA {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(-1000px);
+  }
+}
+
+.rect2 {
+  animation: xAxisB 10.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: 20;
+  	left: 20%;
+  	top: 50%;
+}
+
+.rect2::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #FFC612;
+  	animation: yAxisB 10.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisB {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(-300px);
+  }
+}
+
+@keyframes xAxisB {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(2000px);
+  }
+}
+
+.rect3 {
+  animation: xAxisC 12.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: 0;
+  	left: 20%;
+  	top: 10%;
+}
+
+.rect3::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #0098FF;
+  	animation: yAxisC 12.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisC {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(800px);
+  }
+}
+
+@keyframes xAxisC {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(-100px);
+  }
+}
+
+.rect4 {
+  animation: xAxisD 5.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: -20;
+  	left: 70%;
+  	top: 90%;
+}
+
+.rect4::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #67C900;
+  	animation: yAxisD 5.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisD {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(-800px);
+  }
+}
+
+@keyframes xAxisD {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(400px);
+  }
+}
+
+.rect5 {
+  animation: xAxisE 1.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: 25;
+  	left: 70%;
+  	top: 20%;
+}
+
+.rect5::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #797F00;
+  	animation: yAxisE 15.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisE {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(900px);
+  }
+}
+
+@keyframes xAxisE {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(-100px);
+  }
+}
+
+.rect6 {
+  animation: xAxisF 10.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: -25;
+  	left: 10%;
+  	top: 20%;
+}
+
+.rect6::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #8E8888;
+  	animation: yAxisF 6.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisF {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(-300px);
+  }
+}
+
+@keyframes xAxisF {
   50% {
     animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
     transform: translateX(100px);
