@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Arial Black";
+  src: url("/fonts/@font-face/8984ea7fcbebdcfe77fbbc1b86e7cfe6.woff") format("woff");
+}
+
 h1 {
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-weight: 700;
