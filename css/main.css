@@ -247,3 +247,183 @@ a:hover {
     transform: translateX(100px);
   }
 }
+
+.rect7 {
+  animation: xAxisG 12.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: -10;
+  	left: 90%;
+  	top: 90%;
+}
+
+.rect7::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #FF3000;
+  	animation: yAxisG 6.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisG {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(-400px);
+  }
+}
+
+@keyframes xAxisG {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(-100px);
+  }
+}
+
+.rect8 {
+  animation: xAxisH 2.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: 20;
+  	left: 50%;
+  	top: 80%;
+}
+
+.rect8::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #FFC612;
+  	animation: yAxisH 22.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisH {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(-900px);
+  }
+}
+
+@keyframes xAxisH {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(200px);
+  }
+}
+
+.rect9 {
+  animation: xAxisI 3.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: -18;
+  	left: 90%;
+  	top: 10%;
+}
+
+.rect9::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #0098FF;
+  	animation: yAxisI 12.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisI {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(-80px);
+  }
+}
+
+@keyframes xAxisI {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(-160px);
+  }
+}
+
+.rect10 {
+  animation: xAxisJ 11.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: -18;
+  	left: 5%;
+  	top: 85%;
+}
+
+.rect10::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #67C900;
+  	animation: yAxisJ 11.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisJ {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(-800px);
+  }
+}
+
+@keyframes xAxisJ {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(450px);
+  }
+}
+
+.rect11 {
+  animation: xAxisK 5.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: -30;
+  	left: 10%;
+  	top: 60%;
+}
+
+.rect11::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #797F00;
+  	animation: yAxisK 6.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisK {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(100px);
+  }
+}
+
+@keyframes xAxisK {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(950px);
+  }
+}
+
+.rect12 {
+  animation: xAxisF 3.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  	z-index: 15;
+  	left: 40%;
+  	top: 10%;
+}
+
+.rect12::after {
+	content: '';
+  	display: block;
+  	width: 200px;
+  	height: 150px;
+  	background-color: #8E8888;
+  	animation: yAxisL 20.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+@keyframes yAxisL {
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(800px);
+  }
+}
+
+@keyframes xAxisL {
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(-600px);
+  }
+}
