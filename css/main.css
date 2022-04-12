@@ -13,8 +13,9 @@ h1 {
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+/*	text-decoration: none;
+	color: inherit;*/
+	color: yellow;
 }
 
 .letters {
@@ -29,35 +30,29 @@ a {
 #letter1 {
 	text-decoration: none;
 	font-style: normal;
-	color: #FF3000;
-}
+/*	color: #FF3000;
+*/}
 
 #letter2 {
-	color: #FFC612;
-}
+/*	color: #FFC612;
+*/}
 
 #letter3 {
-	color: #0098FF;
-}
+/*	color: #0098FF;
+*/}
 
 #letter4 {
-	color: #67C900;
-}
+/*	color: #67C900;
+*/}
 
 #letter5 {
-	color: #797F00;
-}
+/*	color: #797F00;
+*/}
 
 #letter6 {
-	color: #8E8888;
-}
+/*	color: #8E8888;
+*/}
 
-#letter1 a:hover {
-/*	color: red;
-*/	cursor: hand;
-}
-
-#letter2 a:hover {
-/*	color: green;
-*/	cursor: hand;
+a:hover {
+	cursor: hand;
 }
