@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-	font-family: "Arial Black";
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;;
 	font-size: 20pt;
 	color: white;
 }
