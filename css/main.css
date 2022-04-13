@@ -19,6 +19,41 @@ h1 {
 	margin-bottom: 0;
 }
 
+p {
+	font-family: "Arial Black";
+	font-size: 20pt;
+}
+
+#letter1 .type {
+	display: block;
+	z-index: 10;
+	margin: 0px;
+	padding-top: 170px;
+	padding-left: 180px;
+	color: black;
+	position: absolute;
+}
+
+#letter2 .type {
+	display: block;
+	z-index: 10;
+	margin: 0px;
+	padding-top: 170px;
+	padding-left: 85px;
+	color: black;
+	position: absolute;
+}
+
+#letter3 .type {
+	display: block;
+	z-index: 10;
+	margin: 0px;
+	padding-top: 170px;
+	padding-left: 180px;
+	color: black;
+	position: absolute;
+}
+
 a {
 /*	text-decoration: none;
 	color: inherit;*/
