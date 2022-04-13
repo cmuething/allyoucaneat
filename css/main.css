@@ -23,14 +23,15 @@ p {
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;;
 	font-size: 20pt;
 	color: black;
+
 }
 
 #letter1 .type {
 	display: block;
 	z-index: 10;
 	margin: 0px;
-	padding-top: 170px;
-	padding-left: 180px;
+	padding-top: 93px;
+	padding-left: 145px;
 	position: absolute;
 }
 
@@ -38,8 +39,8 @@ p {
 	display: block;
 	z-index: 10;
 	margin: 0px;
-	padding-top: 170px;
-	padding-left: 85px;
+	padding-top: 213px;
+	padding-left: 82px;
 	position: absolute;
 }
 
@@ -47,8 +48,24 @@ p {
 	display: block;
 	z-index: 10;
 	margin: 0px;
-	padding-top: 170px;
-	padding-left: 180px;
+	padding-top: 139px;
+	padding-left: 80px;
+	position: absolute;
+}
+
+#letter4 .type-before {
+	display: block;
+	z-index: 10;
+	margin: -30px;
+	padding-top: 193px;
+	position: absolute;
+}
+
+#letter4 .type {
+	display: block;
+	z-index: 10;
+	margin: -213px;
+	padding-left: 383px;
 	position: absolute;
 }
 
