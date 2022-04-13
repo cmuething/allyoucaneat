@@ -99,6 +99,15 @@ iframe {
 	position: absolute;
 }
 
+#letter5 .type {
+  display: block;
+  z-index: 10;
+  margin: 0px;
+  padding-top: 145px;
+  padding-left: 130px;
+  position: absolute;
+}
+
 a {
 /*	text-decoration: none;
 	color: inherit;*/
