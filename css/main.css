@@ -218,7 +218,7 @@ a:hover {
 
 .rect3 {
   animation: xAxisC 12.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
-  	z-index: 0;
+  	z-index: 10;
   	left: 20%;
   	top: 10%;
 }
