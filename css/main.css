@@ -47,7 +47,7 @@ p {
 	position: fixed;
 	text-align: left;
 	line-height: 0;
-	z-index: -10;
+	z-index: 20;
 	top: 0;
 	margin-left: 10px;
 }
@@ -66,15 +66,15 @@ iframe {
 	display: block;
 	margin: 0px;
 	padding-top: 93px;
-	padding-left: 145px;
+	padding-left: 155px;
 	position: absolute;
 }
 
 #letter2 .type {
 	display: block;
 	margin: 0px;
-	padding-top: 213px;
-	padding-left: 82px;
+	padding-top: 210px;
+	padding-left: 86px;
 	position: absolute;
 }
 
@@ -82,29 +82,29 @@ iframe {
 	display: block;
 	margin: 0px;
 	padding-top: 139px;
-	padding-left: 80px;
+	padding-left: 86px;
 	position: absolute;
 }
 
 #letter4 .type-before {
 	display: block;
-	margin: -30px;
-	padding-top: 193px;
+	margin: -41px;
+	padding-top: 199px;
 	position: absolute;
 }
 
 #letter4 .type {
 	display: block;
-	margin: -213px;
-	padding-left: 383px;
+	margin: -219px;
+	padding-left: 399px;
 	position: absolute;
 }
 
 #letter5 .type {
   display: block;
   margin: 0px;
-  padding-top: 145px;
-  padding-left: 130px;
+  padding-top: 151px;
+  padding-left: 136px;
   position: absolute;
 }
 
